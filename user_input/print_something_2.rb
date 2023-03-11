@@ -4,7 +4,7 @@ loop do
 
     # get user input, remove carriage return and turn it to lowercase
     puts ">> Do you want me to print 'something'? (y/n)"
-    user_input = gets.chomp
+    user_input = gets.chomp.downcase
 
     # conditional response
 
