@@ -1,5 +1,5 @@
 # get user input
-puts "Do you want me to print 'something'? (y/n)"
+puts ">>Do you want me to print 'something'? (y/n)"
 user_input = gets.chomp.downcase
 
 # conditional response
