@@ -6,4 +6,8 @@ def world
   'World'
 end
 
-puts hello + " " + world
+def greet
+    puts hello + " " + world
+end
+
+greet
