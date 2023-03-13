@@ -19,14 +19,14 @@ loop do
     
     # get user input and validate in two loops in sequence
     loop do 
-        puts ">> Please enter a positive or negative integer:"
+        puts ">> Please enter the first positive or negative integer:"
         integer1 = gets.chomp
         break if valid_number?(integer1)
         puts "Invalid input. Only non-zero integers are allowed."
     end
     
     loop do
-        puts ">> Please enter a positive or negative integer:"
+        puts ">> Please enter the second positive or negative integer:"
         integer2 = gets.chomp
         break if valid_number?(integer2)
         puts "Invalid input. Only non-zero integers are allowed."
