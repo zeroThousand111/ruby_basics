@@ -12,9 +12,9 @@ character_classes = {
 }
 
 puts 'Please type your class (warrior, thief, scout, mage):'
-input = gets.chomp.downcase
+input = gets.chomp.downcase.to_sym
 
-player.merge(character_classes[input])
+player.merge!(character_classes[input])
 
 puts 'Your character stats:'
 puts player
