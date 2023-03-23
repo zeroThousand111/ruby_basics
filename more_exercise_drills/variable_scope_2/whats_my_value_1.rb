@@ -10,3 +10,11 @@ end
 
 my_value(a)
 puts "End: The value of a is still #{a} and the id of a is #{a.object_id}."
+
+
+=begin
+Start: The value of a is 7 and the id of a is 15.
+Start method: The value of b is 7 and the id of b is 15.
+End method: The value of b is now  17 and the id of b is 35.
+End: The value of a is still 7 and the id of a is 15.
+=end
